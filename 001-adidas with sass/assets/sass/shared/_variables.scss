@@ -3,6 +3,7 @@ $color-main: hsl(0, 0%, 19%);
 $color-secondary: hsl(0, 50%, 51%);
 $color-primary: hsl(0, 0%, 0%);
 $color-white: hsl(0, 0%, 94%);
+$color-balck: hsl(0, 0%, 3%);
 
 // spacings
 $spc-xxs: 0.125rem;
@@ -12,9 +13,14 @@ $spc-m: 1rem;
 $spc-l: 1.5rem;
 $spc-xl: 2rem;
 $spc-xxl: 4rem;
+$spc-xxxl: 15rem;
+$spc-xxxxl: 30rem;
 
 // width
 $max-width: 1280px;
+
+// sizes
+$full-width: 100%;
 
 // font weights
 $light: 100;

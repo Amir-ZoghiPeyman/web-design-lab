@@ -53,4 +53,70 @@ a {
   border: 0.125rem solid hsl(0, 0%, 94%);
   background-color: transparent;
   color: hsl(0, 0%, 94%);
+}
+
+.firstIntro {
+  height: 30rem;
+  background-image: url("..//..//images/backs/slideshow.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.firstIntro__section {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.firstIntro__section h2 {
+  text-transform: capitalize;
+}
+.firstIntro__section__btn {
+  background-color: hsl(0, 0%, 3%);
+  color: hsl(0, 0%, 94%);
+  padding: 1rem 1.5rem;
+  border: none;
+}
+
+.firstSection__groupTitle {
+  border-bottom: 0.125rem solid hsl(0, 0%, 3%);
+  text-align: center;
+  width: 30rem;
+  margin: 1.5rem auto;
+  padding-bottom: 0.5rem;
+}
+.firstSection__groupCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.firstSection__groupCards__card {
+  width: 100%;
+}
+.firstSection__btn {
+  text-transform: capitalize;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem auto;
+  background-color: hsl(0, 0%, 3%);
+  color: hsl(0, 0%, 94%);
+  border: none;
 }/*# sourceMappingURL=main.css.map */
