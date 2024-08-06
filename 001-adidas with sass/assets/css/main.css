@@ -119,4 +119,70 @@ a {
   background-color: hsl(0, 0%, 3%);
   color: hsl(0, 0%, 94%);
   border: none;
+}
+
+.secondIntro {
+  height: 30rem;
+  background-image: url("..//..//images/backs/woman-slide.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.secondIntro__section {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.secondIntro__section h2 {
+  text-transform: capitalize;
+}
+.secondIntro__section__btn {
+  background-color: hsl(0, 0%, 3%);
+  color: hsl(0, 0%, 94%);
+  padding: 1rem 1.5rem;
+  border: none;
+}
+
+.secondSection__groupTitle {
+  border-bottom: 0.125rem solid hsl(0, 0%, 3%);
+  text-align: center;
+  width: 30rem;
+  margin: 1.5rem auto;
+  padding-bottom: 0.5rem;
+}
+.secondSection__groupCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.secondSection__groupCards__card {
+  width: 100%;
+}
+.secondSection__btn {
+  text-transform: capitalize;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem auto;
+  background-color: hsl(0, 0%, 3%);
+  color: hsl(0, 0%, 94%);
+  border: none;
 }/*# sourceMappingURL=main.css.map */

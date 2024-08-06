@@ -1,0 +1,59 @@
+.secondIntro{
+    height: $spc-xxxxl;
+    background-image: url("..//..//images/backs/woman-slide.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &__section{
+        height: $full-width;
+        display: flex;
+        gap: $spc-m;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        & h2{
+            text-transform: capitalize;
+        }
+
+        &__btn{
+            background-color: $color-balck;
+            color: $color-white;
+            padding: $spc-m $spc-l;
+            border: none;
+        }
+    }
+}
+
+.secondSection{
+    
+    &__groupTitle{
+        border-bottom: $spc-xxs solid $color-balck;
+        text-align: center;
+        width: $spc-xxxxl;
+        margin: $spc-l auto;
+        padding-bottom: $spc-s;
+    }
+
+    &__groupCards{
+        display: flex;
+        gap: $spc-m;
+        justify-content: center;
+        
+        &__card{
+            width: $full-width;
+        }
+    }
+
+    &__btn{
+        text-transform: capitalize;
+        display: block;
+        width: max-content;
+        padding: $spc-s $spc-m;
+        margin: $spc-l auto;
+        background-color: $color-balck;
+        color: $color-white;
+        border: none;
+    }
+}
