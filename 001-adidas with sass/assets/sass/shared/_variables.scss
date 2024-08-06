@@ -1,13 +1,20 @@
-// background colors
-$bg-main: hsl(0, 3%, 26%);
-$bg-secondary: hsl(0, 50%, 51%);
-$bg-primary: hsl(0, 0%, 0%);
+// colors
+$color-main: hsl(0, 0%, 19%);
+$color-secondary: hsl(0, 50%, 51%);
+$color-primary: hsl(0, 0%, 0%);
+$color-white: hsl(0, 0%, 94%);
 
 // spacings
-$spc-2: 2px;
-$spc-4: 4px;
-$spc-6: 6px;
-$spc-8: 8px;
+$spc-xxs: 0.125rem;
+$spc-xs: 0.25rem;
+$spc-s: 0.5rem;
+$spc-m: 1rem;
+$spc-l: 1.5rem;
+$spc-xl: 2rem;
+$spc-xxl: 4rem;
+
+// width
+$max-width: 1280px;
 
 // font weights
 $light: 100;

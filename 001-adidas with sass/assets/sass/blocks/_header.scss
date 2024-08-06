@@ -1,0 +1,32 @@
+.header{
+    background-color: $color-main;
+    padding: $spc-s 0;
+    color: $color-white;
+
+    &__section{
+        display: flex;
+        justify-content: space-between;
+        
+        &__navbar{
+            display: flex;
+            gap: $spc-xl;
+
+            &__container{
+                display: flex;
+                align-items: center;
+                gap: $spc-m;
+
+                &__item{
+                text-transform: uppercase;
+                }
+            }
+
+        &__btn{
+            padding: $spc-xs $spc-m;
+            border: $spc-xxs solid $color-white;
+            background-color: transparent;
+            color: $color-white;
+            }
+        }
+    }
+}
