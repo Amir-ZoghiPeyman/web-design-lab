@@ -1,0 +1,23 @@
+@mixin footer-navbar-heading{
+    display: flex;
+    flex-direction: column;
+    gap: $spc-s;
+}
+
+@mixin footer-navbar-title{
+    display: inline-block;
+    color: $color-white;
+    text-transform: capitalize;
+    font-size: $spc-l;
+    margin-bottom: $spc-s;
+}
+
+@mixin header-footer-navbar{
+    display: flex;
+    gap: $spc-xl;
+}
+
+@mixin section-display($display:flex, $justify-content:space-between){
+    display: $display;
+    justify-content: $justify-content;
+}

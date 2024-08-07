@@ -4,12 +4,10 @@
     color: $color-white;
 
     &__section{
-        display: flex;
-        justify-content: space-between;
+        @include section-display();
         
         &__navbar{
-            display: flex;
-            gap: $spc-xl;
+            @include header-footer-navbar;
 
             &__container{
                 display: flex;
